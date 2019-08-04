@@ -1,0 +1,17 @@
+import java.io.FileWriter;
+import java.io.IOException;
+
+public class Arqs {
+
+	public static void main(String[] args) throws IOException {
+
+		File arquivo = new File("c:\\dados\\arquivo1.txt");
+		FileWriter writer = new FileWriter(arquivo);
+
+		writer.write("Escrevendo a Frase no arquivo");
+		writer.close();
+
+		
+	}
+
+}
